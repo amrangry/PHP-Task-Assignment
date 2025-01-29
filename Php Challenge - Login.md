@@ -1,4 +1,4 @@
-# PHP-Task-Assignment "Login Screen"
+# Php - Challenge "Login Screen"
 
 ## Description:
 This PHP project implements a login screen that allows users to input their username and password. Upon submission, the system verifies the credentials against a RESTful API endpoint. If the credentials are correct, a popup dialog is displayed to welcome the user with their name. If the credentials are incorrect, a message indicating so is displayed, allowing the user to try again.
