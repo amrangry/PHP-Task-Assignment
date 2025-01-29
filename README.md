@@ -1,33 +1,62 @@
-# PHP-Task-Assignment "Login Screen"
+# PHP Task Assignment  
 
-## Description:
-This PHP project implements a login screen that allows users to input their username and password. Upon submission, the system verifies the credentials against a RESTful API endpoint. If the credentials are correct, a popup dialog is displayed to welcome the user with their name. If the credentials are incorrect, a message indicating so is displayed, allowing the user to try again.
+This repository contains a collection of PHP coding challenges designed to test and enhance your PHP development skills. 
+Each challenge focuses on different aspects of PHP programming, including authentication, API integration, and data handling.  
 
-## Requirements:
-1. **Login Screen Implementation:** Fields for username, password, and a submit button are implemented.
-2. **Frontend Validation:** Frontend validation ensures that the username follows email format and the password field is not empty before submitting the form.
-3. **Backend Validation:** Backend validation is implemented by sending a request to a RESTful API endpoint to verify the provided credentials.
-4. **Git History:** Maintain a git history with clear commit messages.
-5. **Clean Code:** Write clean code following SOLID principles.
-6. **Artifacts:** Include artifacts demonstrating masterpiece coding, coding style, etc.
-7. **Unit Tests:** Implement unit tests to ensure code reliability and functionality.
+### 📌 Challenges  
 
-## Additional Points:
-- **Authentication Tokens:** Authentication tokens are used to authenticate users after successful login. A token is generated on the server upon successful authentication and returned to the frontend. The frontend includes this token in subsequent requests to the API for authentication, serving as proof of the user's identity for accessing protected resources.
-- **Authorization Header:** The frontend sends the authentication token in the Authorization header of each request to the API, ensuring that only authenticated users can access the API endpoints.
-- **Rate Limiting:** Rate limiting is implemented on the API to prevent abuse and ensure fair usage. The number of requests that can be made within a certain time period is limited to mitigate potential security threats.
-- **API Key or Client ID/Secret:** If applicable, API keys or client ID/secret pairs are used to authenticate the frontend application with the API, adding an additional layer of security by ensuring that only authorized applications can access the API.
+- **[PHP Challenge - Login](https://github.com/amrangry/PHP-Task-Assignment/blob/main/Php%20Challenge%20-%20Login.md)**  
+  Implement a secure user authentication system with proper session management and validation.  
 
-## Deliverables:
-- **Git Repository:** The project repository contains clear commit history and all necessary task files.
-- **README File:** This documentation outlines the code structure, any design patterns used, and explanations for key decisions.
-- **Additional Artifacts:** Any additional artifacts showcasing coding mastery, such as coding style guides or design patterns utilized.
+- **[PHP Challenge - NYT Article Explorer](https://github.com/amrangry/PHP-Task-Assignment/blob/main/Php%20Challenge%20-%20NYT%20Article%20Explorer.md)**  
+  Integrate with the New York Times API to fetch and display news articles dynamically.  
 
-## Notes:
-- Ensure the login system is secure, preventing common vulnerabilities such as SQL injection or cross-site scripting (XSS).
-- Follow best practices for PHP development and maintainability.
-- Provide clear instructions for setting up and running the application and tests.
-- Document any assumptions made during the development process.
+Stay tuned for more challenges! 🚀  
 
-Please refer to this README for detailed information about the project structure, implementation, and guidelines. If you have any questions or need further assistance, feel free to reach out.
 
+## **Author**
+
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/2900952?s=400&u=41c504ca200e2f92638fc630e8361da78296b35c&v=4" width="180" alt="Amr Ahmed Elghadban"/>
+
+  **Amr Ahmed Elghadban (AmrAngry)**
+
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-red?logo=gmail)](mailto:amr.elghadban@gmail.com) [![WhatsApp](https://img.shields.io/badge/GitHub-Profile-blue?logo=whatsapp)](https://api.whatsapp.com/send/?phone=00971543233227&text=Hi%20&app_absent=0) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/amrelghadban/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/amrangry) [![StackOverflow](https://img.shields.io/badge/StackOverflow-Profile-orange?logo=stackoverflow)](https://stackoverflow.com/users/1316779/amrangry)
+
+[![Twitter (formerly Twitter)](https://img.shields.io/badge/Twitter-Profile-blue?logo=twitter)](https://x.com/intent/follow?screen_name=amr_elghadban) [![Facebook](https://img.shields.io/badge/Facebook-Profile-blue?logo=facebook)](https://facebook.com/amr.elghadban) [![Website](https://img.shields.io/badge/Website-Visit%20Me-blue?logo=globe)](https://amrangry.github.io/)
+       <div align="center" >
+	       <a href = "https://www.buymeacoffee.com/amrangry">
+		    <img src = "https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=your-username&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"/>
+                </a>
+       </div>
+  <!--  [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-yellow?logo=buymeacoffee)](https://www.buymeacoffee.com/amrangry) -->
+  <!--  [Email](mailto:amr.elghadban@gmail.com?subject=I%20checked%20your%20GitHub%20repo!): [amr.elghadban@gmail.com](mailto:amr.elghadban@gmail.com) -->
+  <!-- [![Linkedin](https://img.shields.io/badge/Lets%20Connect%20via-LinkedIn-blue)](https://www.linkedin.com/in/amrelghadban/) -->
+  <!-- [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/amr_elghadban)](https://x.com/intent/follow?screen_name=amr_elghadban) -->
+  
+</div>
+
+## **Contributing 🤘**
+
+All your feedback and help to improve this project is very welcome. Please create issues for your bugs, ideas and enhancement requests, or better yet, contribute directly by creating a PR. 😎
+
+When reporting an issue, please add a detailed instruction, and if possible a code snippet or test that can be used as a reproducer of your problem. 💥
+
+When creating a pull request, please adhere to the current coding style where possible, and create tests with your code so it keeps providing an awesome test coverage level 💪
+
+## **Code of Conduct**
+
+I’m here to share my knowledge and findings as I work every day to improve our apps/demos for the community.
+This is a space where we work together, openly and safely, as kind and considerate human beings.
+We grow by giving and receiving positive, constructive feedback. 
+Let’s keep learning and building, one step at a time.
+
+## **License**
+
+<details>
+<summary>MIT License.</summary>
+Distributed under MIT License.
+Copyright &copy; 2025 Amr Elghadban
+</details>
